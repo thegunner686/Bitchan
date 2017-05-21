@@ -33,7 +33,7 @@ export default class Messages extends React.Component {
       <div className="MessagesContainer">
         {
           this.state.posts.map((p) => {
-            return (<Post key={Math.floor(Math.random() * Math.PI * 1000)} data={p} />);
+            return (<Post key={Math.floor(Math.random() * Math.PI * 10000000 / Math.random() * 10)} data={p} />);
           })
         }
       </div>

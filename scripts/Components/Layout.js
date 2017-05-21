@@ -11,7 +11,7 @@ export default class Layout extends React.Component {
   render() {
     return (
       <div>
-        <div className="Title">Bitchan</div>
+        <div className="Title">BitChan</div>
         <Messages/>
         <TextForm/>
       </div>
