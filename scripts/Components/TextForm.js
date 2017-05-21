@@ -21,6 +21,11 @@ export default class TextForm extends React.Component {
 
   createPost() {
     var input = document.getElementById("input-content");
+    if(input.value.length > 400) {
+      alert("Dear God please don't do this to me.");
+      input.value = "";
+      return;
+    }
     var post = {
       username: localStorage.getItem("username"),
       content: input.value,

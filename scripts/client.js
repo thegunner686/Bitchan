@@ -15,7 +15,11 @@ var config = {
 };
 firebase.initializeApp(config);
 
-var user = prompt("Enter a username");
+var user = "";
+do {
+  user = prompt("Enter a Username less than 30 characterss");
+} while(user.length > 30);
+
 localStorage.setItem("username", user);
 
 var app = document.getElementById("app");
