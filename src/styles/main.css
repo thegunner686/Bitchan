@@ -1,0 +1,55 @@
+.MessagesContainer {
+  width: 100vw;
+  height: 60vh;
+  padding-bottom: 10vh;
+  position: fixed;
+  left: 0vw;
+  top: 10vh;
+  overflow-y: scroll;
+}
+.Title {
+  position: absolute;
+  text-align: center;
+  left: 0vw;
+  top: 0vh;
+  width: 100vw;
+  height: 10vh;
+  font-size: 3.2em;
+  font-family: Monospace;
+}
+.PostContainer {
+  width: 60%;
+  display: inline-block;
+  height: auto;
+  position: relative;
+  left: 20vw;
+  box-shadow: 0px 0px 5px black;
+  padding: 1%;
+}
+.PostUsername {
+  height: 2vh;
+  width: 100%;
+  margin: 1%;
+  font-weight: 900;
+}
+.PostContent {
+  height: 80%;
+  width: 100%;
+  margin: 1%;
+  font-weight: 300;
+}
+.TextFormContainer {
+  position: fixed;
+  left: 0vw;
+  bottom: 0vh;
+  width: 100vw;
+  height: 10vh;
+  border-top: 5px solid #404040;
+  box-sizing: border-box;
+}
+#input-content {
+  width: 100%;
+  height: 100%;
+  font-size: 1.5em;
+  font-family: Monospace;
+}
