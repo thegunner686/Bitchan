@@ -6,6 +6,8 @@
   left: 0vw;
   top: 10vh;
   overflow-y: scroll;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  -webkit-overflow-scrolling: touch;
 }
 .Title {
   position: absolute;
